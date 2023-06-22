@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background-image.jpg);
+}
+
+.container {
+  width: 50vw;
+  min-height: 70vh;
+  margin: 3rem auto;
+  background-color: rgb(152, 247, 215);
+  padding: 2rem;
+  border-radius: 4rem;
+  box-shadow: 0.2rem 0.2rem 2.5rem 1rem rgb(63, 63, 82);
+}
+
+.main {
+  display: block;
+  margin: auto;
+}
+.main h1 {
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 0.1rem 0.1rem #fff;
+}
+.main #taskInput {
+  display: block;
+  width: 30vw;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: none;
+}
+.main #taskInput:focus {
+  outline: none;
+}
+.main #addButton {
+  display: block;
+  margin: auto;
+  padding: 1rem 1.5rem;
+  background-color: #0099ff;
+  font-size: 1.3rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s all;
+}
+.main #addButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.main__task-list {
+  margin: 2rem auto;
+  text-align: center;
+}
+.main__task-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main__task-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.main__task-list li.done {
+  color: gray;
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
